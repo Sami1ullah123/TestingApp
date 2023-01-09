@@ -11,7 +11,7 @@ const App = () => {
           style={styles.inputText}
           placeholder="Email..."
           placeholderTextColor="#003f5c"
-          accessibilityLabel=''
+          accessibilityLabel='#email'
           onChangeText={text => setEmail(text)
           } />
       </View>
@@ -21,6 +21,7 @@ const App = () => {
           style={styles.inputText}
           placeholder="Password..."
           placeholderTextColor="#003f5c"
+          accessibilityLabel='#password'
           onChangeText={text => setPassword(text)} />
       </View>
       <TouchableOpacity>
